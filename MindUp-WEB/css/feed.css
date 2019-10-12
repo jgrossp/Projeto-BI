@@ -1,0 +1,334 @@
+﻿@import url('style.css');
+
+a .descricao-startup{
+    color: #000000 !important;
+}
+
+a .box-startup:hover .descricao-startup{
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+
+
+#feed .navbar-brand {
+    left: 180px !important;
+}
+
+.box-busca {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+
+    .box-busca .form-inline {
+        width: 100%;
+    }
+
+        .box-busca .form-inline .box-search {
+            width: 100%;
+        }
+
+            .box-busca .form-inline .box-search .input-group {
+                width: 100%;
+            }
+
+                .box-busca .form-inline .box-search .input-group .searchbar {
+                    width: 100% !important;
+                }
+
+
+.invisivel {
+    display: none !important;
+}
+
+.nav-transparente-feed {
+    background-color: transparent !important;
+}
+
+
+/* HEADER */
+header {
+    background: url(../img/cadastro_login4.jpeg) center no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+    header .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    header .hgroup-feed {
+        color: #fff;
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+        transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+    }
+
+.logo-header {
+    margin-bottom: 3em;
+}
+
+    .logo-header img {
+        width: 250px;
+        margin-bottom: 5px;
+    }
+
+    .logo-header h1 {
+        font-family: 'Proxima Nova ScOsf Regular', sans-serif;
+        font-size: 22px;
+    }
+
+.pesquisas {
+    margin: 1em auto 0;
+    width: 590px;
+}
+
+    .pesquisas ul li input {
+        font-family: Raleway-Light, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .pesquisas ul li input:hover {
+        font-family: Raleway-Regular, sans-serif;
+        color: #ff6700;
+    }
+
+
+
+/* SEARCH BAR */
+
+.box-search-feed {
+    padding: 4px 0;
+    border-bottom: 1.5px solid #ff6700;
+    width: 600px;
+    background-color: rgba(255,255,255, 0.60);
+}
+
+.searchbar-feed {
+    background-color: transparent;
+    border: none !important;
+    border-radius: 0;
+    color: #fff;
+    font-family: Raleway-Regular, sans-serif;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 10px;
+    width: 540px;
+}
+
+    .searchbar-feed:focus {
+        border: none !important;
+    }
+
+.btnCategorias-feed {
+    border: none !important;
+}
+
+
+    .btnCategorias-feed a {
+        color: #ff6700;
+    }
+
+    .btnCategorias-feed .caret {
+        border-top: 7px dashed;
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+    }
+
+
+.btnSearch-feed {
+    height: 19px;
+}
+
+.input-group-addon {
+    padding: 6.5px 12px 8.5px 10px;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 0;
+    border: none;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+
+@media (max-width: 768px) {
+    .box-search {
+        position: absolute;
+        left: 0;
+        margin-left: 0px !important;
+    }
+}
+
+.border-orange {
+    background-color: red !important;
+}
+
+/* FIM SEARCH BAR */
+
+/* FIM HEADER */
+
+
+/* STARTUP */
+
+.col-md-3, .col-xs-6{
+    margin: 1em 0;
+}
+
+.startups {
+    margin: 3em auto;
+}
+
+    .startups .box-startup {
+        padding: 10px;
+        border: 1px solid #b8b8b8;
+        border-radius: 0;
+        -webkit-animation: scaledown 0.2s linear;
+        -moz-animation: scaledown 0.2s linear;
+        animation: scaledown 0.2s linear;
+        transform-origin: 50% 50%;
+        animation-fill-mode: forwards;
+    }
+
+        .startups .box-startup .img-startup {
+            text-align: center;
+            background-color: #fff;
+        }
+
+            .startups .box-startup .img-startup img.logo-startup {
+                margin-left: auto;
+                margin-right: auto;
+                transition: all .5s ease;
+                height: 200px;
+            }
+
+            .startups .box-startup .img-startup .img-hover {
+                transition: all .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 33%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+            }
+
+                .startups .box-startup .img-startup .img-hover img {
+                    height: 45px;
+                    opacity: 1;
+                    transition: all .5s ease;
+                }
+
+        .startups .box-startup .descricao-startup {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+            .startups .box-startup .descricao-startup .titulo-startup {
+                font-family: Raleway-Light, sans-serif;
+                font-size: 20px;
+                text-align: center;
+            }
+
+                .startups .box-startup .descricao-startup .titulo-startup::after {
+                    background-color: #ff6700;
+                    content: "";
+                    display: block;
+                    height: 3px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 4px;
+                    margin-bottom: 10px;
+                    position: relative;
+                    top: 0px;
+                    left: 0;
+                    width: 10%;
+                    transition: all ease 0.5s;
+                }
+
+
+            .startups .box-startup .descricao-startup p {
+                font-family: Raleway-Regular, sans-serif;
+                font-size: 15px;
+                line-height: 20px;
+                text-align: center;
+                text-overflow: ellipsis;
+            }
+
+
+        .startups .box-startup:hover {
+            z-index: 100;
+            -webkit-animation: scale 0.2s linear;
+            -moz-animation: scale 0.2s linear;
+            animation: scale 0.2s linear;
+            transform-origin: 50% 50%;
+            animation-fill-mode: forwards;
+        }
+
+            .startups .box-startup:hover .descricao-startup .titulo-startup {
+                font-family: Raleway-Regular, sans-serif;
+            }
+
+                .startups .box-startup:hover .descricao-startup .titulo-startup::after {
+                    width: 30%;
+                    transition: all ease 0.5s;
+                }
+
+            .startups .box-startup:hover .img-startup img.logo-startup {
+                opacity: 0.2;
+            }
+
+            .startups .box-startup:hover .img-startup .img-hover {
+                opacity: 1;
+                transition: all .5s ease;
+            }
+
+
+
+@keyframes scale {
+    0% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.1);
+        -webkit-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+        -moz-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+        box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+    }
+}
+
+@keyframes scaledown {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+/* FIM STARTUP */
+
+

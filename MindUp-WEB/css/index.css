@@ -1,0 +1,412 @@
+﻿@import url('style.css');
+
+.titulos {
+    font-family: 'Proxima Nova ScOsf Regular', sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.linha-titulo {
+    background-color: #ff6700;
+    content: "";
+    display: block;
+    height: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 10%;
+    margin-bottom: 5em;
+}
+
+.topicos {
+    font-family: Raleway-Regular, sans-serif;
+    font-size: 26px;
+    padding-bottom: .2em;
+    text-align: center;
+    color: #ff6700;
+}
+
+.topicos-text {
+    font-family: Raleway-Regular, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+
+.box-icones {
+    height: 170px;
+}
+
+.icones {
+    height: 90px;
+    margin: 40px 0;
+}
+
+.icone-meio {
+    height: 110px;
+    margin: 30px 0;
+}
+
+
+/* HEADER */
+header {
+    background: url(../img/background_home1.jpg) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    min-height: 630px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+    header .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    header #home {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    header h1, header h2 {
+        margin: 0;
+    }
+
+    header h1 {
+        font-size: 40px;
+        line-height: 50px;
+        font-family: 'Proxima Nova ScOsf Light', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    header .hgroup {
+        color: #fff;
+        z-index: 2;
+    }
+
+        header .hgroup .header-left ::after {
+            content: "";
+            position: absolute;
+            width: 15%;
+            height: 6px;
+            display: block;
+            top: -40px;
+            background-color: #ff6700;
+        }
+
+.header-right .linha-header-right {
+    background-color: #ff6700;
+    content: "";
+    display: block;
+    height: 6px;
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 15%;
+    margin: 30px 0 0 auto;
+}
+
+.header-left {
+    text-align: left;
+}
+
+.header-icon {
+    text-align: center;
+}
+
+    .header-icon .repeat {
+        text-align: center;
+        height: 50px;
+        margin: 50px 0;
+    }
+
+.header-right {
+    text-align: right;
+}
+
+@media screen and (max-width: 991px) and (min-width:480px) {
+    header {
+        min-height: 600px !important;
+        height: 90vh !important;
+    }
+
+        header .hgroup {
+            padding: 40% 10% 20%; 
+        }
+
+        header #home {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+    .header-right h1 {
+        padding-left: 30%;
+    }
+
+    .header-icon .repeat {
+        text-align: center;
+        height: 45px;
+        margin: 35px 0;
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        min-height: 600px !important;
+        height: 60vh !important;
+    }
+
+        header h1 {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        header #home {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+    .header-right h1 {
+        padding-left: 10%;
+    }
+
+    .header-icon .repeat {
+        text-align: center;
+        height: 40px;
+        margin: 30px 0;
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+        transform: rotate(90deg);
+    }
+
+    .titulos {
+        font-size: 30px;
+    }
+
+    .topicos {
+        font-size: 22px;
+    }
+
+    .slogan {
+        font-size: 22px !important;
+        letter-spacing: 2px !important;
+        line-height: 30px !important;
+    }
+}
+
+
+/* FIM HEADER */
+
+/* EMPREENDEDOR */
+.empreendedor {
+    background-color: #ffffff;
+    padding: 6em 0;
+}
+
+    .empreendedor .col-md-4 {
+        text-align: center;
+        padding: 0 40px;
+    }
+
+/* FIM EMPREENDEDOR */
+
+/* STARTUPS */
+
+#content-item {
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+    #content-item .item {
+        height: 100%;
+        overflow: hidden;
+        cursor: pointer;
+        background: #000;
+        margin-top: 30px;
+        background-color: #27282a;
+    }
+
+        #content-item .item img {
+            transition: all 0.8s;
+            opacity: 0.8;
+        }
+
+        #content-item .item:hover img {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            -webkit-transition: all 0.8s;
+            transition: all 0.8s;
+            opacity: 0.2;
+        }
+
+        #content-item .item .caption {
+            position: absolute;
+            top: 100%;
+            margin-left: 10px;
+            opacity: 0;
+            -webkit-transition: all 0.4s;
+            transition: all 0.5s;
+            padding: 0 10%;
+        }
+
+            #content-item .item .caption p {
+                margin: 0;
+                color: #fff;
+                font-size: 15px;
+                line-height: 20px;
+                text-align: center;
+            }
+
+        #content-item .item:hover .caption {
+            opacity: 1;
+            top: 60%;
+            transition: all 0.5s;
+        }
+
+        #content-item .item .startup-titulo {
+            position: absolute;
+            top: 70px;
+            left: 50%;
+            margin-left: -32.24px;
+            opacity: 1;
+            -webkit-transition: all 0.4s;
+        }
+
+
+.startups .startup-titulo .nome-startups {
+    font-family: Raleway-Light,sans-serif;
+    font-size: 25px !important;
+    color: #fff;
+}
+
+    .startups .startup-titulo .nome-startups:after {
+        background-color: #ff6700;
+        content: "";
+        display: block;
+        height: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        position: relative;
+        top: 0px;
+        left: 0;
+        width: 30%;
+        transition: all ease 0.5s;
+    }
+
+.startups .item:hover .startup-titulo .nome-startups {
+    font-family: Raleway-Regular,sans-serif;
+    transition: all ease 0.5s;
+}
+
+    .startups .item:hover .startup-titulo .nome-startups:after {
+        width: 100%;
+        transition: all ease 0.5s;
+    }
+
+.startups * {
+    z-index: 2;
+}
+
+.startups .col-md-3 {
+    padding: 0;
+}
+
+
+/* FIM STARTUPS */
+
+/* INVESTIDOR */
+
+.investidor {
+    background-color: #ffffff;
+    padding: 6em 0;
+}
+
+    .investidor .col-md-4 {
+        text-align: center;
+        padding: 0 40px;
+    }
+
+/* FIM INVESTIDOR */
+
+/* FRASE */
+.frase {
+    height: 40vh;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+    background: url('../img/backgroung_slogan3.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+    .frase .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .frase hgroup {
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        width: 80%;
+        padding: 3em 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+    }
+
+    .frase .slogan {
+        font-family: 'Proxima Nova ScOsf Light', sans-serif;
+        font-size: 30px;
+        letter-spacing: 3px;
+        line-height: 40px;
+    }
+
+.orange {
+    color: #ff6700;
+    font-family: 'Proxima Nova ScOsf Regular', sans-serif;
+    font-size: 35px;
+}
+/* FIM FRASE */
+
+

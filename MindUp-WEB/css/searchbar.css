@@ -1,0 +1,58 @@
+﻿@import url('style.css');
+
+/* SEARCH BAR */
+
+#menu .nav .box-search {
+   
+    margin: 9px 0;
+    border-bottom: 1.5px solid #959595;
+    
+}
+
+#menu .nav .searchbar {
+    background-color: transparent;
+    border: none !important;
+    border-radius: 0;
+    color: #fff;
+    font-family: Raleway-Regular, sans-serif;
+    font-size: 15px;
+    height: 38px;
+    padding-left: 10px;
+    width: 210px;
+}
+
+    #menu .nav .searchbar:focus {
+        border: none !important;
+    }
+
+#menu .nav .btnCategorias {
+    border: none !important;
+}
+
+#menu .nav .btnSearch {
+    height: 20px;
+}
+
+#menu .nav .input-group-addon {
+    padding: 6.5px 12px 8.5px 10px;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 0;
+    width: 35px !important;
+}
+
+#menu .nav .input-group-addon-btnSearch {
+    padding: 1px;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    #menu .nav .box-search {
+        position: absolute;
+        left: 0;
+        margin-left: 0px !important;
+    }
+}
+
+/* FIM SEARCH BAR */
+

@@ -1,0 +1,245 @@
+﻿@import url('style.css');
+@import url('build.css');
+@import url('campos.css');
+@import url('cadastroStartup.css');
+
+
+.background-login-cadastrar {
+    background-image: url('../img/cadastro_login2.1.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+.background-blur {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.background-orange {
+    background-color: #ff6700;
+    height: 500px;
+}
+
+    .background-orange a .logo_modal {
+        height: 60px !important;
+    }
+
+    .background-orange a .logo_modal {
+        font-size: 30px;
+        color: #fff;
+        transform: translate(-7px, 7px);
+        display: inline-block;
+    }
+
+    .background-orange .heading {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-22%, -40%);
+        text-align: center;
+        transition: all 0.6s;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+        .background-orange .heading h3 {
+            font-family: 'Proxima Nova ScOsf Regular', sans-serif;
+            font-size: 27px;
+            margin-bottom: 25px;
+        }
+
+        .background-orange .heading h5 {
+            font-family: Raleway-Light, sans-serif;
+            font-size: 16px;
+            letter-spacing: 1.5px;
+            margin-bottom: 20px;
+            line-height: 20px;
+        }
+
+
+.box-login {
+    background-color: #ffffff;
+    min-height: 500px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+    .box-login .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .box-login .conteudo-login {
+        padding: 0.8em 6em;
+    }
+
+.box-cadastrar {
+    background-color: #ffffff;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+    .box-cadastrar .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .box-cadastrar .conteudo-cadastrar {
+        padding: 2em;
+    }
+
+    .box-cadastrar .background-orange {
+        background-color: #ff6700;
+        height: 653px;
+    }
+
+    .box-cadastrar .conteudo-cadastrar .titulo-login-cadastrar {
+        margin-top: 1em;
+    }
+
+        .box-cadastrar .conteudo-cadastrar .titulo-login-cadastrar:after {
+            margin-bottom: 1em;
+        }
+
+    .box-cadastrar .conteudo-cadastrar .label2 {
+        margin: 30px 0 4px;
+    }
+
+h3.titulo-login-cadastrar {
+    font-family: 'Proxima Nova ScOsf Light', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 3.5em;
+    text-align: center;
+    color: #27282a;
+}
+
+    h3.titulo-login-cadastrar:after {
+        background-color: #ff6700;
+        content: "";
+        display: block;
+        height: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 15%;
+        margin-bottom: 2em;
+    }
+
+.box-button-login-cadastrar {
+    text-align: center;
+}
+
+    .box-button-login-cadastrar .btn {
+        margin: 1em auto 0;
+        text-align: center;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-family: Raleway-Medium, sans-serif;
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    .box-button-login-cadastrar #btnCadastrar {
+        margin: 1em auto 0;
+    }
+
+    .box-button-login-cadastrar .btnLoginCadastro {
+        background-color: transparent;
+        border: 2px solid #ff6700;
+        color: #ff6700;
+    }
+
+        .box-button-login-cadastrar .btnLoginCadastro:hover {
+            background-color: #ff6700;
+            color: #ffffff;
+            transition: all ease 0.5s;
+        }
+
+        .box-button-login-cadastrar .btnLoginCadastro:focus {
+            background-color: #fff;
+            color: #ff6700 !important;
+            transition: all ease 0.5s;
+        }
+
+
+    .box-button-login-cadastrar .btnOrangeLoginCadastrar {
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+    }
+
+        .box-button-login-cadastrar .btnOrangeLoginCadastrar:hover {
+            background-color: #ffffff;
+            border: 2px solid #ffffff;
+            color: #ff6700;
+            transition: all ease 0.5s;
+        }
+
+        .box-button-login-cadastrar .btnOrangeLoginCadastrar:focus {
+            background-color: #ffffff;
+            border: 2px solid #ffffff;
+            color: #ff6700;
+            transition: all ease 0.5s;
+        }
+
+.ckbConfirmar {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    font-size: 13px;
+    padding-left: 0 !important;
+}
+
+    .ckbConfirmar label::before {
+        width: 18px;
+        height: 18px;
+        border: 1px solid #b8b8b8;
+        position: absolute;
+        top: -2px;
+    }
+
+    .ckbConfirmar label::after {
+        width: 17px;
+        height: 17px;
+        padding-left: 3px;
+        padding-top: 0px;
+        font-size: 12px;
+        color: #ff6700;
+    }
+
+
+.alerta {
+    font-size: 13px;
+    padding: 10px !important;
+}
+
+.alerta .close{
+    opacity: 0.7;
+    right: -4px;
+    top: -6px;
+}
+
+@media screen and (max-width: 992px) {
+    .background-orange {
+        min-height: 240px;
+    }
+
+    h3.titulo-login-cadastrar {
+        margin-top: 2em;
+    }
+}

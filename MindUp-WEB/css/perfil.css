@@ -1,0 +1,404 @@
+﻿@import url('style.css');
+@import url('campos.css');
+@import url('build.css');
+@import url('cadastroStartup.css');
+
+
+body {
+    background-color: #dedede;
+}
+
+
+#perfil {
+    margin: 8em auto 2em;
+}
+
+    #perfil .bg-branco {
+        background-color: #ffffff;
+        padding: 1em;
+        border: 1px solid #cacaca;
+    }
+
+.img-perfil {
+    border: 2px solid #27282a;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-bottom: 2em;
+}
+
+.identificacao {
+    text-align: center;
+    margin: 1em 0;
+}
+
+    .identificacao p span {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    .identificacao p small span {
+        font-size: 14px;
+    }
+
+
+.btn.btn-perfil {
+    width: 100%;
+    border-bottom: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
+    background-color: #ffffff;
+    padding: 0.8em;
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: Raleway-Regular, sans-serif;
+    font-size: 15px;
+    border-radius: 0;
+    transition: all ease 0.8s;
+}
+
+    .btn.btn-perfil:hover {
+        background-color: #e7e7e7;
+        transition: all ease 0.8s;
+    }
+
+    .btn.btn-perfil.active {
+        color: #ffffff;
+        background-color: #ff6700;
+        letter-spacing: 1.5px;
+    }
+
+    .btn.btn-perfil.btn-meu-perfil {
+        border-bottom: none;
+    }
+
+
+/* MULTIVIEW */
+
+/* VIEW PERFIL */
+.view {
+    padding: 1em;
+}
+
+.label2 {
+    font-size: 12px;
+}
+
+.view h4 {
+    font-family: 'Proxima Nova ScOsf Light', sans-serif;
+    font-size: 24px;
+    color: #27282a;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+    .view h4 span {
+        font-size: 28px;
+    }
+
+    .view h4:after {
+        background-color: #ff6700;
+        content: "";
+        display: block;
+        height: 3px;
+        margin: 4px 0 10px;
+        position: relative;
+        top: 0px;
+        left: 0;
+        width: 100px;
+    }
+
+.box-rbl {
+    margin-top: 14px;
+}
+
+    .box-rbl .label2 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+.box-ddl {
+    position: relative;
+    top: 15px;
+}
+
+#txtBiografia {
+    min-height: 90px;
+}
+
+.box-button-perfil {
+    width: 100%;
+    text-align: right;
+    margin-top: 3em;
+}
+
+.btnSalvarPerfil {
+    background-color: #fff;
+    border: 2px solid #ff6700;
+    border-radius: 0;
+    color: #ff6700;
+    text-transform: uppercase;
+    font-family: Raleway-Medium, sans-serif;
+    font-size: 13px;
+    padding: 10px 20px;
+    transition: all ease 0.5s;
+}
+
+    .btnSalvarPerfil:hover {
+        background-color: #ff6700;
+        color: #ffffff;
+        transition: all ease 0.5s;
+    }
+
+    .btnSalvarPerfil:focus {
+        background-color: #fff;
+        color: #ff6700 !important;
+        transition: all ease 0.5s;
+    }
+
+/* FIM VIEW PERFIL */
+
+/* VIEW COIN */
+.coins-center-vertical-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.box-coin-quant {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img-coin {
+    height: 30px;
+    display: inline;
+}
+
+.lblCoin {
+    font-family: LeagueSpartan, sans-serif;
+    font-size: 19px;
+    display: inline;
+    margin-left: 10px;
+    position: absolute;
+    top: 58%;
+    left: auto;
+    transform: translateY(-50%);
+}
+
+.coins-pacotes {
+    width: 100%;
+    margin-top: 4em;
+}
+
+    .coins-pacotes .col-md-3 {
+        height: 27em;
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 0;
+    }
+
+    .coins-pacotes .box-coins-pacotes-laterais {
+        border: 2px solid #cacaca;
+        height: 25em;
+        text-align: center;
+        transition: all 0.3s ease;
+        width: 100%;
+    }
+
+        .coins-pacotes .box-coins-pacotes-laterais:hover {
+            border-width: 4px;
+            border-color: #ff6700;
+            transition: all 0.3s ease;
+        }
+
+        .coins-pacotes .box-coins-pacotes-laterais.left {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            border-right: none;
+        }
+
+        .coins-pacotes .box-coins-pacotes-laterais.center {
+            min-height: 27em;
+            background-color: #ff6700;
+            border: 4px solid #ff6700;
+            transition: all 0.8s ease;
+        }
+
+            .coins-pacotes .box-coins-pacotes-laterais.center:hover {
+                background-color: #ffffff !important;
+                transition: all 0.8s ease;
+            }
+
+                .coins-pacotes .box-coins-pacotes-laterais.center:hover .coins-pacotes-precos small {
+                    color: #27282a !important;
+                    transition: all 0.5s ease;
+                }
+
+                .coins-pacotes .box-coins-pacotes-laterais.center:hover .coins-pacotes-titulos {
+                    color: #27282a !important;
+                    transition: all 0.5s ease;
+                }
+
+                    .coins-pacotes .box-coins-pacotes-laterais.center:hover .coins-pacotes-titulos:after {
+                        background-color: #ff6700 !important;
+                        transition: all 0.5s ease;
+                    }
+
+                .coins-pacotes .box-coins-pacotes-laterais.center:hover .coins-pacotes-center-vertical .coins-pacotes-precos .img-more-laranja {
+                    display: block;
+                    transition: all 0.5s ease;
+                }
+
+                .coins-pacotes .box-coins-pacotes-laterais.center:hover .coins-pacotes-center-vertical .coins-pacotes-precos .img-more-cinza {
+                    display: none;
+                    transition: all 0.5s ease;
+                }
+
+
+            .coins-pacotes .box-coins-pacotes-laterais.center .coins-pacotes-center-vertical .coins-pacotes-precos p {
+                font-size: 38px;
+            }
+
+            .coins-pacotes .box-coins-pacotes-laterais.center .coins-pacotes-center-vertical .coins-pacotes-precos img {
+                height: 35px;
+            }
+
+            .coins-pacotes .box-coins-pacotes-laterais.center .coins-pacotes-center-vertical .coins-pacotes-precos .img-more {
+                height: 50px;
+                margin: auto;
+                transition: all 0.5s ease;
+            }
+
+            .coins-pacotes .box-coins-pacotes-laterais.center .coins-pacotes-center-vertical .coins-pacotes-precos .img-more-laranja {
+                display: none;
+            }
+
+            .coins-pacotes .box-coins-pacotes-laterais.center .coins-pacotes-center-vertical .coins-pacotes-precos .img-more-cinza {
+                display: block;
+            }
+
+            .coins-pacotes .box-coins-pacotes-laterais.center .coins-pacotes-center-vertical .coins-pacotes-precos small {
+                font-size: 19px;
+                color: #fff;
+                transition: all 0.5s ease;
+            }
+
+            .coins-pacotes .box-coins-pacotes-laterais.center .coins-pacotes-center-vertical .coins-pacotes-titulos {
+                font-size: 27px;
+                color: #fff;
+                transition: all 0.5s ease;
+            }
+
+                .coins-pacotes .box-coins-pacotes-laterais.center .coins-pacotes-center-vertical .coins-pacotes-titulos:after {
+                    background-color: #fff;
+                    transition: all 0.5s ease;
+                }
+
+        .coins-pacotes .box-coins-pacotes-laterais.right {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            border-right: none;
+            border-left: none;
+        }
+
+
+
+        .coins-pacotes .box-coins-pacotes-laterais .coins-pacotes-center-vertical {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+
+    .coins-pacotes .coins-pacotes-titulos {
+        font-family: Raleway-Regular, sans-serif;
+        font-size: 21px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #27282a;
+    }
+
+        .coins-pacotes .coins-pacotes-titulos:after {
+            background-color: #ff6700;
+            content: "";
+            display: block;
+            height: 2px;
+            margin: 0 auto 1em;
+            position: relative;
+            top: 6px;
+            left: 0;
+            width: 70px;
+        }
+
+    .coins-pacotes .coins-pacotes-precos {
+        margin-top: 4em;
+    }
+
+        .coins-pacotes .coins-pacotes-precos p {
+            font-family: LeagueSpartan, sans-serif;
+            font-size: 33px;
+            color: #27282a;
+            padding: 10px 0;
+        }
+
+        .coins-pacotes .coins-pacotes-precos small {
+            font-family: Raleway-Regular, sans-serif;
+            font-size: 17px;
+        }
+
+    .coins-pacotes .coins-pacotes-botao {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+    }
+
+        .coins-pacotes .coins-pacotes-botao .btnCoins {
+            background-color: transparent;
+            border-radius: 0;
+            border: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+.txtCoin {
+    width: 50%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    color: #ffffff;
+    min-width: 50%;
+}
+
+/* FIM VIEW COIN */
+
+/* VIEW STARTUP */
+.espaco-perfil-startup {
+    margin: 8px 0 !important;
+}
+/* FIM VIEW STARTUP */
+
+/* VIEW COMPRA COINS */
+
+.coins-troca-laranja {
+    width: 36px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: 18px;
+}
+/* FIM VIEW COMPRA COINS */
+
+/* FIM MULTIVIEW */
