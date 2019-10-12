@@ -1,0 +1,108 @@
+<html>
+<head> <title>
+</title>
+
+   <meta charset="utf-8" />
+   <link href="css/abc.css" rel="stylesheet">
+   <style>
+
+</style>
+</head>
+
+
+<body>
+<h1>Nosso sistema...<h1>
+    <div>
+            <nav class="navbar navbar-fixed-top nav-transparent">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <ul class="navbar-brand boxLogoCategoria">
+                                <li><a class="a-logo" href="index.aspx">
+                                    <img src="img/logo/mindup_laranja.png" class="logo " />
+                                </a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li class="dropdown">
+                                    <a href="javascript:void(0)" id="menu-toggle-wrapper" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <div id="menu-toggle"></div>
+                                    </a>
+                                    <ul class="dropdown-menu dpdMenu">
+                                        <li class="form-inline box-busca " id="busca-menu">
+                                            <div class="box-search form-group">
+                                                <div class="input-group">
+                                                    <asp:TextBox ID="txtBusca1" runat="server" CssClass="searchbar" placeholder="Busque startups"></asp:TextBox>
+    
+                                                    <div class="input-group-addon input-group-addon-btnSearch">
+                                                        <asp:ImageButton ID="ImageButton1" runat="server" CssClass="btnSearch" ImageUrl="~/img/search.png" />
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                        </li>
+                                        <li><a href="feed.aspx" class="btn-menu">Startups</a></li>
+                                        <li><a href="cadastroStartup.aspx" class="btn-menu">Cadastrar Startup</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="politica.aspx" class="btn-menu">Política de Privacidade</a></li>
+                                        <li><a href="termos.aspx" class="btn-menu">Termos de Responsabilidade e Uso</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+    
+                            <asp:Panel ID="pnlBusca" runat="server" Visible="true">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="form-inline box-busca" id="busca-right">
+                                        <div class="box-search form-group">
+                                            <div class="input-group">
+                                                <asp:TextBox ID="txtBusca" runat="server" CssClass="searchbar" placeholder="Busque startups"></asp:TextBox>                                            
+                                                <div class="input-group-addon input-group-addon-btnSearch">
+                                                    <asp:ImageButton ID="btnBuscar" runat="server" CssClass="btnSearch" ImageUrl="~/img/search.png" />
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </li>
+                                </ul>
+                            </asp:Panel>
+                            <asp:Panel ID="pnlLoginCadastrar" runat="server" Visible="false">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="entrar li_login"><a class="a_login" href="login.aspx">Login</a></li>
+                                    <li class="entrar li_cadastrar  "><a class="a_cadastrar btn-menu" href="cadastrar.aspx">Cadastre-se</a></li>
+                                </ul>
+                            </asp:Panel>
+                            <asp:Panel ID="pnlPerfil" runat="server" Visible="true">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <!-- Perfil -->
+                                    <li class="li-perfil">
+                                        <div class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <asp:Image ID="Image1" runat="server" CssClass="img-circle img-responsive imgPerfil" ImageUrl="~/img/perfil-branco.png" /><span class="caret"></span></a>
+                                            <ul class="dropdown-menu dpdPerfil">
+                                                <li><a href="perfil.aspx" class="btn-menu">Meu Perfil</a></li>
+                                                <li><a href="compracoin.aspx" class="btn-menu">Meus Coins</a></li>
+                                                <li>
+                                                    <a href="perfilStartup.aspx" class="btn-menu">Minha Startup</a></li>
+                                                <li class="divider"></li>
+                                                <li>
+                                                    <asp:Button ID="btnMenuSair" runat="server" Text="Sair" CssClass="btn-menu" OnClick="btnMenuSair_Click" />
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <!-- Fim Perfil -->
+                                </ul>
+                            </asp:Panel>
+                        </div>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:3EMIAConnectionString %>" SelectCommand="SELECT * FROM [tbUsuarioMU]"></asp:SqlDataSource>
+                    </div>
+                </nav>
+    </div>
+</body>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</html>
+
