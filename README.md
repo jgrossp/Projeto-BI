@@ -1,5 +1,5 @@
 #### Projeto-BI
-Antes, lembrem-se, todas as interações deste repositório esta aqui [Código de conduda](code-of-conduct.md).
+Antes, lembrem-se, todas as interações deste repositório esta aqui [Código de conduda](.github/CONDUCT_TEMPLATE/code-of-conduct.md).
 #### 1 – OBJETIVOS
 
 O grupo de alunos deverá, através de fontes formais de informação, pesquisar
