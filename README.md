@@ -1,7 +1,8 @@
+![Figura1_ReadMe](https://user-images.githubusercontent.com/44067719/67125307-e50c7f00-f1ca-11e9-83a6-7ef1bb5b534e.png)
 #### Projeto-BI
 Antes, lembrem-se, todas as interações deste repositório esta aqui [Código de conduda](.github/CONDUCT_TEMPLATE/code-of-conduct.md).
 
-![Figura1_ReadMe](https://user-images.githubusercontent.com/44067719/67125307-e50c7f00-f1ca-11e9-83a6-7ef1bb5b534e.png)
+
 
 # PROJETO EM BI
 
@@ -19,8 +20,8 @@ baseadas em dados.
 
 #### PROCESSOS MODELAGEM DO BANCO:
 
-#### Escolhemos o TEMA:
-#### VIDA TERRESTRE
+**Escolhemos o TEMA:**
+**VIDA TERRESTRE**
 
 Então vamos atrás dos processos de BI:
 
@@ -43,5 +44,6 @@ Criamos um nome, URL, cores base e logo para o site.
 
 #### AREA DE INFORMAÇÕES colocamos as informações tanto do passado quanto as projetadas para o futuro, utilizando gráficos e imagens.
 - gráficos dinâmicos que se atualizam automaticamente quando colocamos novas informações no BD.
+
 AREA DE SOLUÇÃO(ÕES) colocamos maneiras de auxiliar na concepção do tema.
 
