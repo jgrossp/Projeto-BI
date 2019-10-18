@@ -1,5 +1,5 @@
-# Projeto-BI
-1 – OBJETIVOS
+#### Projeto-BI
+#### 1 – OBJETIVOS
 
 O grupo de alunos deverá, através de fontes formais de informação, pesquisar
 sobre o conceito de Business Intelligence (BI), seus usos e aplicações, assim como as
@@ -38,24 +38,25 @@ mundial usará uma solução de Business Intelligence, implementada pelo grupo e
 questão, o qual terá de identificar quais são os indicadores (Key Performance
 Indicators – KPI) da rede.
 
-2 – FORMAÇÃO DE GRUPOS
+#### 2 – FORMAÇÃO DE GRUPOS
 
 Os grupos deverão ser formados por no mínimo 6 e no máximo 10
 alunos (sem exceções). Um integrante de cada grupo ficará responsável pela
 postagem do trabalho no sistema.
 
-3 – NORMAS DE CONSTRUÇÃO
+#### 3 – NORMAS DE CONSTRUÇÃO
 
 O protótipo do software a ser construído deverá contemplar os itens
 
 descritos a seguir:
 
-1) Interface gráfica web;
+#### 1) Interface gráfica web;
 
-2) Banco de dados;
-3) Técnicas estatísticas para solução de problemas;
+#### 2) Banco de dados;
 
-4 – CRITÉRIOS DE AVALIAÇÃO
+#### 3) Técnicas estatísticas para solução de problemas;
+
+#### 4 – CRITÉRIOS DE AVALIAÇÃO
 
 ITEM NOTA
 Trabalho escrito 4,0
@@ -65,12 +66,13 @@ resolução de problemas
 
 3,0
 
-6 – TRABALHO ESCRITO
+#### 6 – TRABALHO ESCRITO
 
-1. Todas as etapas do trabalho deverão ser escritas em fonte ARIAL 12,
-espaçamento 1,5; margem direita 2,5 cm e margem esquerda 2,5 cm.
+#### 1. Todas as etapas do trabalho deverão ser escritas em:
+fonte ARIAL 12,espaçamento 1,5; margem direita 2,5 cm e margem esquerda 2,5 cm.
 
-2. Limites de páginas
+#### 2. Limites de páginas
+
 Objetivo do trabalho: 1 página e no máximo 2 páginas
 Introdução: 2 páginas e no máximo 4 páginas
 Fundamentação teórica: problema a ser resolvido : 4 páginas e no máximo 8
@@ -83,7 +85,7 @@ máximo de 8 páginas. Colocar fotos da construção, passo a passo.
 IMPORTANTE: Cópias totais ou parciais de conteúdos da internet ou de livros
 acarretarão na reprovação de todo o grupo.
 
-7 – APRESENTAÇÃO
+#### 7 – APRESENTAÇÃO
 
 O trabalho deve ser apresentado nas dependências da UNIP, nas
 datas de 7 de novembro (Sistemas de Informação) e 9 de novembro de
@@ -96,7 +98,7 @@ Não será admitido nenhum atraso no dia e horário marcado
 para a apresentação. Não haverá, em hipótese alguma, o reagendamento
 da apresentação do projeto.
 
-8 – POSTAGEM DO TRABALHO
+#### 8 – POSTAGEM DO TRABALHO
 
 O trabalho escrito deverá ser postado em formato PDF no site
 
@@ -106,7 +108,7 @@ O arquivo postado no sistema é de inteira responsabilidade do
 grupo. Portanto, casos de arquivos corrompidos e alunos não vinculados ao
 trabalho escrito serão reprovados na avaliação.
 
-9 – PREMIAÇÃO
+#### 9 – PREMIAÇÃO
 
 No dia da avaliação todos os integrantes devem estar presentes e
 todos serão questionados sobre o projeto. Dois grupos, um de cada curso,
