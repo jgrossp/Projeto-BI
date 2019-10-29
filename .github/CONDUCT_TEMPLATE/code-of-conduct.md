@@ -1,3 +1,4 @@
+[Citizem Code of Conduct  - Portuguese](https://github.com/jgrossp/Projeto-BI/blob/master/.github/CONDUCT_TEMPLATE/code-of-conduct.md#c%C3%B3digo-de-conduta-do-cidad%C3%A3o)
 # Citizen Code of Conduct
 
 ## 1. Purpose
