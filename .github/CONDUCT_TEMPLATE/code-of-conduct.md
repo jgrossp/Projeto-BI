@@ -78,7 +78,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 10. Contact info
 
-unip.aps42@gmail.com
+aps.unip42@gmail.com
 
 ## 11. License and attribution
 
@@ -147,7 +147,7 @@ Qualquer pessoa solicitada a interromper o comportamento inaceitável deve cumpr
 Se um membro da comunidade se envolver em um comportamento inaceitável, os organizadores da comunidade poderão tomar as medidas que considerarem apropriadas, incluindo uma proibição temporária ou expulsão permanente da comunidade sem aviso prévio (e sem reembolso no caso de um evento pago).
 
 ## 7. Diretrizes para relatórios
-Se você estiver sujeito ou testemunhar um comportamento inaceitável ou tiver outras preocupações, notifique o organizador da comunidade o mais rápido possível. unip.aps42@gmail.com .
+Se você estiver sujeito ou testemunhar um comportamento inaceitável ou tiver outras preocupações, notifique o organizador da comunidade o mais rápido possível. aps.unip42@gmail.com .
 
 Link para diretrizes de relatórios
 
@@ -164,7 +164,7 @@ Esperamos que todos os participantes da comunidade (colaboradores, pagos ou não
 Esse código de conduta e seus procedimentos relacionados também se aplicam a comportamentos inaceitáveis ​​que ocorrem fora do escopo das atividades da comunidade, quando esse comportamento pode afetar adversamente a segurança e o bem-estar dos membros da comunidade.
 
 ## 10. Informações de contato
-unip.aps42@gmail.com
+aps.unip42@gmail.com
 
 ## 11. Licença e atribuição
 O Código de Conduta do Cidadão é distribuído pelo Stumptown Syndicate sob uma licença Creative Commons Attribution-ShareAlike .
